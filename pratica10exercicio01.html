@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="pratica10exercicio01.js"></script>
+    <link rel="stylesheet" href="pratica10exercicio01.css">
+    <script src="https://kit.fontawesome.com/1a0c2bb1ad.js" crossorigin="anonymous"></script>
+    <title>Laboratório - Prática 10 Exercicio 01</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="logo.png">
+    </header> <br>
+
+    <div id="titulo">
+        A melhor agência de viagens!
+    </div>
+
+    <section>
+        <div class="divFotos">
+            <img class="fotos" src="riodejaneiro.jpg">
+            <span>Rio de Janeiro, RJ - Brasil</span>
+            <button onclick="orcamentoRio ()">Orçamento</button>
+            <div class="valores" id="orcamentoRio" style="display:none">
+                <b>Passagem ida:</b> R$449,99 <br />
+                <b>Passagem de ida e volta:</b> R$559,99 <br />
+                <b>Passagem + hospedagem:</b> R$639,99
+            </div>
+        </div>
+
+        <div class="divFotos">
+            <img class="fotos" src="saopaulo.jpg">
+            <span>São Paulo, SP - Brasil</span>
+            <button onclick="orcamentoSp ()">Orçamento</button>
+            <div class="valores" id="orcamentoSp" style="display:none">
+                <b>Passagem de ida:</b> R$420,90 <br />
+                <b>Passagem de ida e volta:</b> R$510,99 <br />
+                <b>Passagem + hospedagem:</b> R$599,99
+            </div>
+        </div>
+
+        <div class="divFotos">
+            <img class="fotos" src="blumenau.jpg">
+            <span>Blumenau, SC - Brasil</span>
+            <button onclick="orcamentoBlumenau ()">Orçamento</button>
+            <div class="valores" id="orcamentoBlumenau" style="display:none">
+                <b>Passagem de ida:</b> R$349,99 <br />
+                <b>Passagem de ida e volta:</b> R$399,99 <br />
+                <b>Passagem + hospedagem:</b> R$456,99            </div>
+        </div>
+
+        <div class="divFotos">
+            <img class="fotos" src="brasilia.jpg">
+            <span>Brasilia, DF - Brasil</span>
+            <button onclick="orcamentoBrasilia ()">Orçamento</button>
+            <div class="valores" id="orcamentoBrasilia" style="display:none">
+                <b>Passagem de ida:</b> R$299,99 <br />
+                <b>Passagem de ida e volta:</b> R$349,99 <br />
+                <b>Passagem + hospedagem:</b> R$399,99
+            </div>
+        </div>
+
+        <div class="divFotos">
+            <img class="fotos" src="curitiba.jpg">
+            <span>Curitiba, PR - Brasil</span>
+            <button onclick="orcamentoCuritiba ()">Orçamento</button>
+            <div class="valores" id="orcamentoCuritiba" style="display:none">
+                <b>Passagem de ida:</b> R$279,99 <br />
+                <b>Passagem de ida e volta:</b> R$389,99 <br />
+                <b>Passagem + hospedagem:</b> R$499,99
+            </div>
+        </div>
+
+        <div class="divFotos">
+            <img class="fotos" src="fernandodenoronha.jpg">
+            <span>Fernando de Noronha, PE - Brasil</span>
+            <button onclick="orcamentoFernando ()">Orçamento</button>
+            <div class="valores" id="orcamentoFernando" style="display:none">
+                <b>Passagem de ida:</b> R$1.049,99 <br />
+                <b>Passagem de ida e volta:</b> R$1.769,99 <br />
+                <b>Passagem + hospedagem:</b> R$2.499,99
+            </div>
+        </div>
+
+        <div class="divFotos">
+            <img class="fotos" src="fozdoiguacu.jpg">
+            <span>Foz do Iguaçu, PR - Brasil</span>
+            <button onclick="orcamentoFoz ()">Orçamento</button>
+            <div class="valores" id="orcamentoFoz" style="display:none">
+                <b>Passagem de ida:</b> R$874,99 <br />
+                <b>Passagem de ida e volta:</b> R$989,99 <br />
+                <b>Passagem + hospedagem:</b> R$1.084,99
+            </div>
+        </div>
+
+        <div class="divFotos">
+            <img class="fotos" src="jalapao.jpg">
+            <span>Jalapão, TO - Brasil</span>
+            <button onclick="orcamentoJalapao ()">Orçamento</button>
+            <div class="valores" id="orcamentoJalapao" style="display:none">
+                <b>Passagem de ida:</b> R$749,99 <br />
+                <b>Passagem de ida e volta:</b> R$829,99 <br />
+                <b>Passagem + hospedagem:</b> R$899,99
+            </div>
+        </div>
+
+        <div class="divFotos">
+            <img class="fotos" src="jericoacoara.jpg">
+            <span>Jericoacoara, CE - Brasil</span>
+            <button onclick="orcamentoJeri ()">Orçamento</button>
+            <div class="valores" id="orcamentoJeri" style="display:none">
+                <b>Passagem de ida:</b> R$429,99 <br />
+                <b>Passagem de ida e volta:</b> R$589,99 <br />
+                <b>Passagem + hospedagem:</b> R$778,99
+            </div>
+        </div>
+
+        <div class="divFotos">
+            <img class="fotos" src="maceio.jpg">
+            <span>Maceio, AL - Brasil</span>
+            <button onclick="orcamentoMaceio ()">Orçamento</button>
+            <div class="valores" id="orcamentoMaceio" style="display:none">
+                <b>Passagem de ida:</b> R$649,99 <br />
+                <b>Passagem de ida e volta:</b> R$699,99 <br />
+                <b>Passagem + hospedagem:</b> R$749,99
+            </div>
+        </div>
+
+        <div class="divFotos">
+            <img class="fotos" src="manaus.jpg">
+            <span>Manaus - Brasil</span>
+            <button onclick="orcamentoManaus ()">Orçamento</button>
+            <div class="valores" id="orcamentoManaus" style="display:none">
+                <b>Passagem de ida:</b> R$899,99 <br />
+                <b>Passagem de ida e volta:</b> R$959,99 <br />
+                <b>Passagem + hospedagem:</b> R$1.119,99
+            </div>
+        </div>
+
+        <div class="divFotos">
+            <img class="fotos" src="maranhao.jpg">
+            <span>Lençóis Maranhenses, MA - Brasil</span>
+            <button onclick="orcamentoLencol ()">Orçamento</button>
+            <div class="valores" id="orcamentoLencol" style="display:none">
+                <b>Passagem de ida:</b> R$699,99 <br />
+                <b>Passagem de ida e volta:</b> R$749,99 <br />
+                <b>Passagem + hospedagem:</b> R$899,99
+            </div>
+        </div>
+
+        <div class="divFotos">
+            <img class="fotos" src="natal.jpeg">
+            <span>Natal, RN - Brasil</span>
+            <button onclick="orcamentoNatal ()">Orçamento</button>
+            <div class="valores" id="orcamentoNatal" style="display:none">
+                <b>Passagem de ida:</b> R$359,99 <br />
+                <b>Passagem de ida e volta:</b> R$419,99 <br />
+                <b>Passagem + hospedagem:</b> R$489,99
+            </div>
+        </div>
+
+        <div class="divFotos">
+            <img class="fotos" src="portoalegre.jpg">
+            <span>Porto Alegre, RS - Brasil</span>
+            <button onclick="orcamentoPorto ()">Orçamento</button>
+            <div class="valores" id="orcamentoPorto" style="display:none">
+                <b>Passagem de ida:</b> R$249,99 <br />
+                <b>Passagem de ida e volta:</b> R$349,99 <br />
+                <b>Passagem + hospedagem:</b> R$849,99
+            </div>
+        </div>
+
+        <div class="divFotos">
+            <img class="fotos" src="recife.jpeg">
+            <span>Recife, PE - Brasil</span>
+            <button onclick="orcamentoRecife ()">Orçamento</button>
+            <div class="valores" id="orcamentoRecife" style="display:none">
+                <b>Passagem de ida:</b> R$459,99 <br />
+                <b>Passagem de ida e volta:</b> R$499,99 <br />
+                <b>Passagem + hospedagem:</b> R$539,99
+            </div>
+        </div>
+
+        <div class="divFotos">
+            <img class="fotos" src="salvador.jpg">
+            <span>Salvador, BA - Brasil</span>
+            <button onclick="orcamentoSalvador ()">Orçamento</button>
+            <div class="valores" id="orcamentoSalvador" style="display:none">
+                <b>Passagem de ida:</b> R$339,99 <br />
+                <b>Passagem de ida e volta:</b> R$389,99 <br />
+                <b>Passagem + hospedagem:</b> R$409,99
+            </div>
+        </div>
+
+        <div class="divFotos">
+            <img class="fotos" src="santos.jpg">
+            <span>Santos, SP - Brasil</span>
+            <button onclick="orcamentoSantos ()">Orçamento</button>
+            <div class="valores" id="orcamentoSantos" style="display:none">
+                <b>Passagem de ida:</b> R$219,99 <br />
+                <b>Passagem de ida e volta:</b> R$309,99 <br />
+                <b>Passagem + hospedagem:</b> R$349,99
+            </div>
+        </div>
+
+        <div class="divFotos">
+            <img class="fotos" src="vitoria.jpeg">
+            <span>Vitória, ES - Brasil</span>
+            <button onclick="orcamentoVitoria ()">Orçamento</button>
+            <div class="valores" id="orcamentoVitoria" style="display:none">
+                <b>Passagem de ida:</b> R$199,99 <br />
+                <b>Passagem de ida e volta:</b> R$244,99 <br />
+                <b>Passagem + hospedagem:</b> R$278,99
+            </div>
+        </div>
+        <footer>
+            <div>
+            <div id="fundoLaranja">
+                <input class="input" type="text" placeholder="Digite seu nome">
+                <input class="input" type="email" placeholder="Digite seu e-mail">
+                <button id="enviar">Enviar</button>
+            </div>
+            
+            <div id="fundoCinza">
+                Douglas Ramos Rodrigues - Análise e Desenvolvimento de Sistemas <br>
+                UNA - Aimorés - Rua dos Aimorés, 1451 - Belo Horizonte / MG - CEP 30140-071 <br>
+                <i class="fas fa-phone"></i>&nbsp&nbsp(31) 99497-6694 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <i class="fab fa-whatsapp"></i>&nbsp&nbsp(31) 99999-9999 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <i class="fab fa-facebook"></i>&nbsp&nbsp/douglasramos <br>
+            </div>
+        </div>
+        </footer>
+    </section>
+    
+
+</body>
+</html>
